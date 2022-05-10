@@ -124,6 +124,7 @@ body {
     }
     .left-login > h1 {
         display: none;
+
     }
     .left-login {
         width: 100;
@@ -138,6 +139,7 @@ body {
     }
     .card-login{
         width: 90%;
+        padding: 20px 25px;
     }
 }
  
