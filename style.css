@@ -119,7 +119,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .main-login { 
         display: flex;
         flex-direction: column;
@@ -154,6 +154,10 @@ body {
 @media only screen and (max-height: 650px) {
     .main-login{
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
     }
     .card-login{
         padding: 0px 15px;
