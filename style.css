@@ -114,7 +114,7 @@ body {
 }
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 960px) {
     .main-login { 
         display: flex;
         flex-direction: column;
@@ -123,6 +123,9 @@ body {
         height: 100vh;
     }
 
+    .img{
+        display: none;
+    }
     .left-login > h1 {
         font-weight: 500;
         font-size: 1rem;
@@ -146,7 +149,7 @@ body {
 
 }
  
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 850px) {
     .main-login{
         display: flex;
         flex-direction: column;
